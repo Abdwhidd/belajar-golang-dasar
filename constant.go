@@ -3,12 +3,18 @@ package main
 import "fmt"
 
 func main() {
-	// Constant WAJIB langsung dideklarasikan valueanya
+	// Note: Constant WAJIB langsung dideklarasikan valueanya
+
+	// Multiple constant
 	const (
 		firtsName = "Wahid"
 		lastName  = "Kahar"
 	)
 
+	// Normal Constant
+	const nameLengkap = "Tes"
+
+	fmt.Println(nameLengkap)
 	fmt.Println(firtsName)
 	fmt.Println(lastName)
 }
